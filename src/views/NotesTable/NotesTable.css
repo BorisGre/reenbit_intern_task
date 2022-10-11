@@ -1,0 +1,40 @@
+@import '../../components/noRecords/noRecords.css';
+
+.notesTable{
+    color: rgba(0, 0, 0, 0.685);
+    border: 2px ;
+    height: 25%;
+    /*width: 50%;*/
+    border-collapse: collapse;
+}
+
+.notesTable .tableHead {
+    background-color: rgb(156, 156, 156);
+    color: white;
+    height: 30px;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+   
+}
+
+.tableBody{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.notesTable .noteRow {
+    height: 40px;
+    margin: 10px 0px;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.notesTable .noteRow:hover{
+    background-color: gray;
+}
+
+.notesTable .archiveRecordsShow {
+    background-color: black;
+}

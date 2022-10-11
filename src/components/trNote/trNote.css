@@ -1,0 +1,43 @@
+[name="noteName"] {
+    width: 15%;
+}
+[name="noteCreated"] {
+    width: 15%;
+}
+[name="noteCategory"] {
+    width: 15%;
+}
+[name="noteContent"] {
+    width: 23%;
+}
+[name="noteDates"] {
+    width: 14%;
+}
+[name="noteControls"] {
+    width: 10%;
+}
+
+[name="noteName"], [name="noteContent"] {
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.controlButtonsWrap {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: right;
+}
+.controlButtonsWrap li{
+    display: inline-block;
+    width: 24%;
+    padding-right: 5%;
+}
+
+[name="noteIcon"] {
+    width: 8%;
+    text-align: center;
+}
+
+[name="noteIcon"] i{
+    padding-top: 5px;
+}

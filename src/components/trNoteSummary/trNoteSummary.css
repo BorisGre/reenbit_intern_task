@@ -1,0 +1,13 @@
+[name="summaryIcon"] {
+    width: 8%;
+    text-align: center;
+}
+[name="summaryCategory"] {
+    width: 43%;
+}
+[name="summaryActive"] {
+    width: 25%;
+}
+[name="summaryArchived"] {
+    width: 25%;
+}
